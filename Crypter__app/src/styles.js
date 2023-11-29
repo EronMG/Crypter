@@ -1,17 +1,15 @@
 const styles = {
-    paddingSm: "py-16 px-8",
-    paddingMd: "py-20 px-28",
-    paddingLg: "py-32 px-22",
+    padding: "py-16 px-8 md:py-20 sm:px-1 md:px-15 lg:px-28 lg:py-32 lg:px-40",
     sectionCenter: "flex justify-center items-center",
     hero: "text-[96px] font-sans tracking-[-1.92px] leading-[96px]",
-    headline1: "text-[64px] font-sans tracking-[-1.28px] leading-[64px]",
-    headline2: "text-[64px] font-sans tracking-[-1.28px] leading-[64px]",
-    headline3: "text-[48px] font-sans tracking-[-0.4px] leading-[48px]",
-    headline4: "text-[32px] font-sans tracking-[-0.32px] leading-[40px]",
+    headline1: "text-[64px] font-sans tracking-[1.4px] leading-[64px]",
+    headline2: "text-[48px] font-sans tracking-[-0.96px] leading-[56px]",
+    headline3: "text-[40px] font-sans tracking-[-0.4px] leading-[48px]",
+    headline4: "text-[32px] font-sans leading-[40px]",
     body1: "text-[24px] font-poppins font-[400] tracking-[-0.24px] leading-[32px]",
     body1Bold: "text-[24px] font-poppins font-[600] leading-[32px]",
     body2: "text-[16px] font-poppins font-[400] leading-[24px]",
-    body2Bold: "text-[24px] font-poppins font-[500] leading-[24px]",
+    body2Bold: "text-[16px] font-poppins font-[500] leading-[24px]",
     caption1: "text-[14px] font-poppins leading-[24px] font-[400]",
     caption1Bold: "text-[14px] font-poppins leading-[24px] font-[500]",
     caption2: "text-[12px] font-poppins leading-[20px] font-[400]",
@@ -20,6 +18,7 @@ const styles = {
     hairlineSmall: "text-[12px] font-poppins font-[700] leading-[12px] uppercase",
     ButtonLarge: "text-[16px] font-sans font-[700] leading-[16px]",
     ButtonSmall: "text-[14px] font-sans font-[700] leading-[16px]",
-
+    hoverButtonBlack: "hover:bg-[#FCFCFD] hover:text-[#23262F] hover:border-[#E6E8EC] active:scale-[90%] transition transition-duration: 150ms ",
+    hoverButtonBlue: " bg-primaryBlue hover:bg-[#0062FF] active:scale-[90%] transition transition-duration: 150ms",
 }
 export default styles;
